@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project Mananager</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet"> 
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <i class="fa fa-bars" area-hidden="true" onclick="toggleMenu()"></i><span class="logo"> Project Management App</span>
+        </header>
+        <section class="container">
+            <section class="menu-block"><h1>menu</h1></section>
+            <section class="board-container">
+                <div class="add-board-class">
+                    <input class="search-board" id="boardName" value="" type="text" placeholder="eg. New Board">
+                    <button class="add-board" type="submit" value="Add Board" onclick="addBoard(boardName)">Add Board</button><br>
+                </div>
+                <section>
+                    <div class="board-name" id="board-block">
+<!--
+                        <span class="button">
+                            <button id="add-project" type="submit" value="Add Project" onclick="addProject()">Add Project</button>
+                            <button id="remove-board" type="submit" value="Remove Board" onclick="removeBoard()">Remove Board</button>
+                        </span>
+-->                   
+                    </div>
+                        <div class="project-block" id="projects"></div>
+<!--                           <div class="project-card">
+                               <h4>Project One</h4>
+                                <ol>
+                                    <li>Task One</li>
+                                    <li>Task Two</li>
+                                    <li>Task Three</li>
+                                    <li>Task Four</li>
+                                </ol>
+                            </div>
+                            <div class="project-card">
+                                <h4>Project Two</h4>
+                                <ol>
+                                    <li>Task One</li>
+                                    <li>Task Two</li>
+                                </ol>
+                            </div>
+                            <div class="project-card">
+                                <h4>Project Three</h4>
+                                <ol>
+                                    <li>Task One</li>
+                                    <li>Task Two</li>
+                                </ol>
+                            </div>
+                            <div class="project-card">
+                                <h4>Project Four</h4>
+                                <ol>
+                                    <li>Task One</li>
+                                    <li>Task Two</li>
+                                </ol>
+                            </div>
+-->
+                        </div>
+                </section>
+            </section>
+        </section>
+</html>
